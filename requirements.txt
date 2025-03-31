@@ -1,0 +1,9 @@
+fastapi==0.103.1
+uvicorn==0.23.2
+pillow==11.1.0
+numpy==1.25.2
+opencv-python==4.8.0.76
+python-multipart==0.0.6
+requests==2.31.0
+imagehash==4.3.1
+pillow-heif==0.22.0  # Optional for HEIC format support 
