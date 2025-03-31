@@ -133,29 +133,3 @@ The API returns several key pieces of information:
 4. Low natural noise levels
 5. Low edge detail (laplacian standard deviation)
 6. Abnormal frequency distributions
-
-### Interpreting Confidence Scores
-
-- 0.0-0.3: Likely a real photograph
-- 0.3-0.6: Uncertain, could be either real or AI
-- 0.6-1.0: Likely AI-generated
-
-## Troubleshooting
-
-- If you encounter issues with HEIC files, ensure pillow-heif is installed
-- For performance issues, consider reducing image resolution before analysis
-- For unexpected results, try comparing with a known real image using the comparison endpoint
-
-## License
-
-[Specify your license here]
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request 
